@@ -14,7 +14,7 @@ import {
 } from './actions'
 import chunkArray from './chunkArray'
 import { RootState, useAppDispatch, useAppSelector } from 'state/store'
-import { useMulticallContract } from 'shared/services/contracts/hooks'
+import { useMulticallContract } from 'services/contracts/hooks'
 
 // chunk calls so we do not exceed the gas limit
 const CALL_CHUNK_SIZE = 500

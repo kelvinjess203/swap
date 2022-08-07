@@ -2,7 +2,7 @@ import { Interface } from "@ethersproject/abi";
 import lodash from "lodash";
 
 import { CHAIN_ID } from "config/env";
-import { getMulticallContract } from "shared/services/contracts/helper";
+import { getMulticallContract } from "services/contracts/helper";
 
 export interface Call {
   address: string; // Address of the contract

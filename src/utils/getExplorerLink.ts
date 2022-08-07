@@ -5,6 +5,8 @@ export function getExplorerLink(
   type: "transaction" | "token" | "address" | "block" | "countdown",
   chainId: ChainIdEnum
 ): string {
+  if (!Object.values(ChainIdEnum).includes(chainId)) return null;
+
   switch (type) {
     case "transaction": {
       return `${listNetwork[chainId].blockExplorerUrls}/tx/${data}`;

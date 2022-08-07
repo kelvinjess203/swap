@@ -97,3 +97,4 @@ export const listNetwork: ListNetworkByChainId = {
     },
   },
 };
+

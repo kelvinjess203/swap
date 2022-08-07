@@ -1,0 +1,5 @@
+{
+  "prettier.printWidth": 120,
+  "prettier.endOfLine": "crlf",
+  "prettier.semi": true
+}
